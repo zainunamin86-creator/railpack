@@ -1,6 +1,5 @@
 [env]
 BUILDKIT_HOST = "docker-container://buildkit"
-RAILPACK_MISE_VERSION = "{{read_file(path='core/mise/version.txt')}}"
 
 _.path = './bin'
 

@@ -1,3 +1,6 @@
+[env]
+RAILPACK_MISE_VERSION = "{{read_file(path='core/mise/version.txt')}}"
+
 [tools]
 "go:github.com/wagoodman/dive" = "latest"
 "go:github.com/go-delve/delve/cmd/dlv" = "latest"
